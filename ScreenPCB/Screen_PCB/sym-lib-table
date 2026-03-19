@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "logic_shifter")(type "KiCad")(uri "${KIPRJMOD}/logic_shifter.kicad_sym")(options "")(descr ""))
-)
