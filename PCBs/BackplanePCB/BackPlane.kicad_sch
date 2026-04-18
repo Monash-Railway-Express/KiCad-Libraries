@@ -1,0 +1,2883 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "6e21d256-d79c-42ee-a5b1-b6407940b88d")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:DE9_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DE9_Socket"
+				(at 0 -14.605 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "9-pin D-SUB connector, socket (female)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "DSUB DB9"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DSUB*Socket*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DE9_Socket_0_1"
+				(polyline
+					(pts
+						(xy -3.81 13.335) (xy -3.81 -13.335) (xy 3.81 -9.525) (xy 3.81 9.525) (xy -3.81 13.335)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 10.16) (xy -2.54 10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 7.62) (xy 0.508 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 2.54) (xy 0.508 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy 0.508 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -7.62) (xy 0.508 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -10.16) (xy -2.54 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.778 10.16)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.778 5.08)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.778 0)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.778 -5.08)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.778 -10.16)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 7.62)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 2.54)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -2.54)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -7.62)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "DE9_Socket_1_1"
+				(pin passive line
+					(at -7.62 10.16 0)
+					(length 3.81)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 7.62 0)
+					(length 3.81)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 5.08 0)
+					(length 3.81)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 3.81)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 3.81)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -5.08 0)
+					(length 3.81)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -7.62 0)
+					(length 3.81)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -10.16 0)
+					(length 3.81)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Screw_Terminal_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 24.13 25.4)
+		(end 45.72 180.34)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 81e982de-4e81-491a-8b64-e3faa3985026)
+	)
+	(rectangle
+		(start 101.6 20.32)
+		(end 187.96 40.64)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b1339a59-e775-44d2-8af0-97f4e6e3d4d5)
+	)
+	(rectangle
+		(start 246.38 24.13)
+		(end 271.78 102.87)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d52a0723-6cf5-45a3-8897-2ede86e9e0cc)
+	)
+	(text "Input/Output\n"
+		(exclude_from_sim no)
+		(at 145.542 16.764 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "24341044-a16e-4f23-a8da-1cd790f618f7")
+	)
+	(text "E&T"
+		(exclude_from_sim no)
+		(at 34.29 185.928 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "79dd843e-937d-48be-9cad-a2c507e038ad")
+	)
+	(text "Carbody"
+		(exclude_from_sim no)
+		(at 259.842 106.68 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "b1664c64-a481-4d73-a0c7-5d698c1ba521")
+	)
+	(junction
+		(at 121.92 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f415582-91b1-47e9-a2cb-a14a6b6a0c93")
+	)
+	(junction
+		(at 100.33 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c4974f4-f453-42aa-bb21-dd801a9b944f")
+	)
+	(junction
+		(at 161.29 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46c11e53-1dfb-4554-80d2-57b84e3a3526")
+	)
+	(junction
+		(at 121.92 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e247fd9-4ea4-4df2-950b-a1c799329ccc")
+	)
+	(junction
+		(at 119.38 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52e5a5a8-69c1-4192-8876-261be222c620")
+	)
+	(junction
+		(at 158.75 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b37ce3c-b235-4d3b-a32b-91e01809e485")
+	)
+	(junction
+		(at 64.77 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5deae803-dd2d-4d75-9c55-18f511d44e6b")
+	)
+	(junction
+		(at 119.38 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64ebe1de-fdef-4103-8f35-7f1a932733d0")
+	)
+	(junction
+		(at 62.23 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f223d13-c0ab-44c6-a1d0-bb6dd9848e40")
+	)
+	(junction
+		(at 124.46 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7062938c-dda1-48da-b815-1e3cc321b2f2")
+	)
+	(junction
+		(at 86.36 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fdd40cc-9bfe-46ba-b695-b6c44b865e6d")
+	)
+	(junction
+		(at 86.36 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91c55ced-854e-480d-a1f5-3a51c6b1a65d")
+	)
+	(junction
+		(at 121.92 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8176fe3-c964-41f7-b22b-6f4e19f04516")
+	)
+	(junction
+		(at 163.83 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab15445a-ad4d-4ef0-a3ac-8d4354c44801")
+	)
+	(junction
+		(at 86.36 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd810250-a2ed-487e-96df-77479b5a16e3")
+	)
+	(junction
+		(at 100.33 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d036aa14-15b2-4c40-9922-ecb1ff682e29")
+	)
+	(junction
+		(at 100.33 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7b02ab2-defa-43b7-a50a-b2638de6ef34")
+	)
+	(junction
+		(at 119.38 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e664225f-3ee7-41ae-b412-2bf9081856dc")
+	)
+	(junction
+		(at 100.33 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f964c50f-dba3-4fbc-894f-9a5975896ba7")
+	)
+	(no_connect
+		(at 114.3 38.1)
+		(uuid "060cf0cf-075f-48da-a6b3-17679f9848c8")
+	)
+	(no_connect
+		(at 39.37 40.64)
+		(uuid "08803e07-1206-4c6b-90e2-f984e3439fe4")
+	)
+	(no_connect
+		(at 166.37 38.1)
+		(uuid "150419ca-1db5-4594-ad9c-a81c2fa47fa4")
+	)
+	(no_connect
+		(at 252.73 40.64)
+		(uuid "229aaf57-dfa3-455e-b1ec-af107f294930")
+	)
+	(no_connect
+		(at 40.64 81.28)
+		(uuid "2cf56ff4-e237-4c13-a076-301b806e3414")
+	)
+	(no_connect
+		(at 40.64 161.29)
+		(uuid "2d9fb966-c5dc-444e-918c-7f4bdafcf346")
+	)
+	(no_connect
+		(at 40.64 115.57)
+		(uuid "31cba138-64f0-4386-99dd-b7b41ba6a905")
+	)
+	(no_connect
+		(at 40.64 158.75)
+		(uuid "4d8b7e81-d962-408c-8be4-9aea045fa7be")
+	)
+	(no_connect
+		(at 173.99 38.1)
+		(uuid "52b40e34-2409-40e3-b4d3-a981353137ef")
+	)
+	(no_connect
+		(at 39.37 55.88)
+		(uuid "5c314d68-e141-47f4-a7f3-221e48d8cf8f")
+	)
+	(no_connect
+		(at 40.64 173.99)
+		(uuid "75a5e754-79c9-4a33-a778-d75622aca2ba")
+	)
+	(no_connect
+		(at 129.54 38.1)
+		(uuid "78501356-8614-46b3-ad31-aa028f402193")
+	)
+	(no_connect
+		(at 134.62 38.1)
+		(uuid "8209eed2-e711-4bd5-a706-547a461ebe1a")
+	)
+	(no_connect
+		(at 252.73 43.18)
+		(uuid "82cbcc8d-a325-4f9b-a94d-d4055d058271")
+	)
+	(no_connect
+		(at 40.64 156.21)
+		(uuid "8e69dd27-93a0-4cb9-b79e-744de05a56b1")
+	)
+	(no_connect
+		(at 39.37 35.56)
+		(uuid "9311cc6c-d45d-4dac-ae6c-ad17c6d13a2c")
+	)
+	(no_connect
+		(at 40.64 133.35)
+		(uuid "93211f77-3565-4f56-aeb6-c4881c514151")
+	)
+	(no_connect
+		(at 116.84 38.1)
+		(uuid "997c2cf4-ae1e-4d17-86c3-365e4f641af3")
+	)
+	(no_connect
+		(at 252.73 38.1)
+		(uuid "9dbba1dd-5ba8-4db8-b00f-4f3ca6fe4f29")
+	)
+	(no_connect
+		(at 127 38.1)
+		(uuid "9e07a5df-2305-4377-89dd-83e2402d8cb1")
+	)
+	(no_connect
+		(at 252.73 55.88)
+		(uuid "a78f8aa4-cd0e-4f94-9e9c-57bd26e9f56c")
+	)
+	(no_connect
+		(at 40.64 113.03)
+		(uuid "ab67398c-30ac-429d-98be-284f9716b9ae")
+	)
+	(no_connect
+		(at 153.67 38.1)
+		(uuid "ad3247b7-0d73-40aa-8b77-df7c08c49d0d")
+	)
+	(no_connect
+		(at 252.73 35.56)
+		(uuid "b26f6067-0604-4d9c-b4cb-46b77b9ef8ca")
+	)
+	(no_connect
+		(at 39.37 38.1)
+		(uuid "b28a7352-acb4-4fea-bbc9-251e9134d802")
+	)
+	(no_connect
+		(at 40.64 118.11)
+		(uuid "bd630287-c2de-46de-9aaf-845a0f0219a7")
+	)
+	(no_connect
+		(at 132.08 38.1)
+		(uuid "c7f053af-7162-4a9b-8fa5-2b9829161200")
+	)
+	(no_connect
+		(at 40.64 120.65)
+		(uuid "cd4c5ce4-10f1-4ee2-b948-67d2bb06dd2e")
+	)
+	(no_connect
+		(at 40.64 153.67)
+		(uuid "da3de9e5-d0eb-4214-bf0e-71e81859abc4")
+	)
+	(no_connect
+		(at 40.64 93.98)
+		(uuid "dfc6647a-95e3-42ef-9e04-c0b9f968855e")
+	)
+	(no_connect
+		(at 168.91 38.1)
+		(uuid "e4c8bc06-3ea8-4fba-be7b-3b6462805570")
+	)
+	(no_connect
+		(at 40.64 73.66)
+		(uuid "ea0654cf-248c-47cf-9d29-ef5b8b359808")
+	)
+	(no_connect
+		(at 40.64 78.74)
+		(uuid "ea0ec64c-f88e-417b-88cc-02c2e19ad8db")
+	)
+	(no_connect
+		(at 39.37 43.18)
+		(uuid "f69180c0-388e-4994-9310-8cb254ce99ce")
+	)
+	(no_connect
+		(at 171.45 38.1)
+		(uuid "f697d183-f700-407c-8aa0-c275006590df")
+	)
+	(no_connect
+		(at 40.64 76.2)
+		(uuid "f72f1fbb-f7c0-4a2a-aeeb-3c0d5e08dc23")
+	)
+	(no_connect
+		(at 156.21 38.1)
+		(uuid "fc4f5c8c-40f7-438b-8af5-ee61a175fead")
+	)
+	(wire
+		(pts
+			(xy 119.38 128.27) (xy 119.38 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01fcd7b3-1693-4dc1-bd97-7748c4b005e3")
+	)
+	(wire
+		(pts
+			(xy 40.64 125.73) (xy 121.92 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "072e6bc3-b285-4cc6-8212-2a136a0570f2")
+	)
+	(wire
+		(pts
+			(xy 40.64 130.81) (xy 86.36 130.81)
+		)
+		(stroke
+			(width 0.0508)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "0960d9e7-c3a9-4ea5-8ac2-124080fcc0ab")
+	)
+	(wire
+		(pts
+			(xy 64.77 163.83) (xy 64.77 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09fcb70a-0105-4872-8552-cda6f63b8fa2")
+	)
+	(wire
+		(pts
+			(xy 86.36 91.44) (xy 86.36 130.81)
+		)
+		(stroke
+			(width 0.0508)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "0fc0e8f4-6e4d-46e0-a353-19db38cffbe1")
+	)
+	(wire
+		(pts
+			(xy 100.33 123.19) (xy 100.33 163.83)
+		)
+		(stroke
+			(width 0.0254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "11a80c2c-16e6-48ae-a899-c403e64d1623")
+	)
+	(wire
+		(pts
+			(xy 62.23 171.45) (xy 62.23 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17f72f39-ac56-426d-afb5-c7129da5ff08")
+	)
+	(wire
+		(pts
+			(xy 121.92 125.73) (xy 121.92 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cad65e0-0935-467d-9250-191aeae4f983")
+	)
+	(wire
+		(pts
+			(xy 158.75 38.1) (xy 158.75 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21abd7d3-6f9b-4dd8-b86e-33402e8bb0e1")
+	)
+	(wire
+		(pts
+			(xy 40.64 171.45) (xy 62.23 171.45)
+		)
+		(stroke
+			(width 0.0508)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "22408400-55b5-407e-836c-d46ba178d1dd")
+	)
+	(wire
+		(pts
+			(xy 86.36 130.81) (xy 86.36 171.45)
+		)
+		(stroke
+			(width 0.0508)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "2293c359-bb5c-4a30-8294-cf53c33137c5")
+	)
+	(wire
+		(pts
+			(xy 163.83 38.1) (xy 163.83 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "294bf648-56e9-4788-a817-b2628fa472e6")
+	)
+	(wire
+		(pts
+			(xy 86.36 53.34) (xy 252.73 53.34)
+		)
+		(stroke
+			(width 0.0508)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "2a0b58f4-4a75-4ef3-8028-fcfd9aa18e2f")
+	)
+	(wire
+		(pts
+			(xy 62.23 171.45) (xy 86.36 171.45)
+		)
+		(stroke
+			(width 0.0508)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "2ce959d7-7a58-4f47-9aa7-45d4f62c46f3")
+	)
+	(wire
+		(pts
+			(xy 119.38 50.8) (xy 119.38 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "479b343e-af14-4164-b05b-0801286b98b5")
+	)
+	(wire
+		(pts
+			(xy 40.64 88.9) (xy 119.38 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c2fe875-6800-4b3e-9599-bac3f5e7b8de")
+	)
+	(wire
+		(pts
+			(xy 121.92 48.26) (xy 161.29 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cbbbeb9-8b75-465e-b088-7abb9e6e04a5")
+	)
+	(wire
+		(pts
+			(xy 119.38 168.91) (xy 119.38 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d42e829-b4a0-4d59-a8bd-347fff0fb03e")
+	)
+	(wire
+		(pts
+			(xy 40.64 128.27) (xy 119.38 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f2525ee-b06d-41cf-a124-392bb761f340")
+	)
+	(wire
+		(pts
+			(xy 64.77 163.83) (xy 100.33 163.83)
+		)
+		(stroke
+			(width 0.0254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "530f8ade-c47e-4f97-8ef8-901eb2698bf0")
+	)
+	(wire
+		(pts
+			(xy 100.33 45.72) (xy 100.33 83.82)
+		)
+		(stroke
+			(width 0.0254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "590a3b42-d6a0-4eb3-82dc-79bebe365dbd")
+	)
+	(wire
+		(pts
+			(xy 161.29 48.26) (xy 252.73 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59861218-4d4a-4186-8f92-1fd89f03a58c")
+	)
+	(wire
+		(pts
+			(xy 121.92 38.1) (xy 121.92 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6227e252-fd47-463c-916e-145ae347f8d0")
+	)
+	(wire
+		(pts
+			(xy 40.64 168.91) (xy 119.38 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63bbd1d3-28b0-4d0f-bae9-aeab2a9629b1")
+	)
+	(wire
+		(pts
+			(xy 39.37 45.72) (xy 100.33 45.72)
+		)
+		(stroke
+			(width 0.0254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "6acea55e-1dc7-45ad-a4bf-f52a8dec69a1")
+	)
+	(wire
+		(pts
+			(xy 124.46 45.72) (xy 163.83 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bd3c583-f675-4e62-89c8-7e7639bc2a46")
+	)
+	(wire
+		(pts
+			(xy 119.38 50.8) (xy 158.75 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aabf239-559b-44ef-afe4-0d88cc051efa")
+	)
+	(wire
+		(pts
+			(xy 100.33 45.72) (xy 124.46 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eafb8b9-beeb-4809-acb9-215273d27d00")
+	)
+	(wire
+		(pts
+			(xy 121.92 86.36) (xy 40.64 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "837984b6-54a1-423c-a109-3011dd33cdd9")
+	)
+	(wire
+		(pts
+			(xy 161.29 38.1) (xy 161.29 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "856e647c-dfbe-4f73-a2c8-da7f3d6d4c84")
+	)
+	(wire
+		(pts
+			(xy 40.64 91.44) (xy 86.36 91.44)
+		)
+		(stroke
+			(width 0.0508)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "8c3e481c-8005-4804-bfd4-a2aa4919717f")
+	)
+	(wire
+		(pts
+			(xy 124.46 38.1) (xy 124.46 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cc9d730-164c-47e0-af46-1f8580f45101")
+	)
+	(wire
+		(pts
+			(xy 100.33 163.83) (xy 100.33 182.88)
+		)
+		(stroke
+			(width 0.0254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "8d5668bb-9b36-41a3-908f-b7f0b94e0468")
+	)
+	(wire
+		(pts
+			(xy 121.92 48.26) (xy 39.37 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9016179b-24fd-43e4-b1bb-8a5a9aa0acbc")
+	)
+	(wire
+		(pts
+			(xy 86.36 91.44) (xy 86.36 53.34)
+		)
+		(stroke
+			(width 0.0508)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "9fd6f728-6bd9-4b7e-9165-3036070fa089")
+	)
+	(wire
+		(pts
+			(xy 119.38 88.9) (xy 119.38 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7b65cde-8887-4f10-bd11-72d9118d9a67")
+	)
+	(wire
+		(pts
+			(xy 121.92 166.37) (xy 121.92 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb2056be-2c7a-4a79-bffa-f5dcc679d88f")
+	)
+	(wire
+		(pts
+			(xy 100.33 83.82) (xy 100.33 123.19)
+		)
+		(stroke
+			(width 0.0254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "bdfcabbf-dcd9-42b7-a5eb-90f515febb14")
+	)
+	(wire
+		(pts
+			(xy 39.37 53.34) (xy 86.36 53.34)
+		)
+		(stroke
+			(width 0.0508)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "bef05576-5a7c-41a0-91d0-474fcbf820ae")
+	)
+	(wire
+		(pts
+			(xy 40.64 123.19) (xy 100.33 123.19)
+		)
+		(stroke
+			(width 0.0254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "bf8ee3a0-fc7e-4dcf-88c2-fdad0aed1813")
+	)
+	(wire
+		(pts
+			(xy 86.36 20.32) (xy 86.36 53.34)
+		)
+		(stroke
+			(width 0.0508)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "c124e67d-9e58-406f-bcc3-604023504208")
+	)
+	(wire
+		(pts
+			(xy 121.92 48.26) (xy 121.92 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca057e8c-faa8-4854-b7a8-5bd244613c6f")
+	)
+	(wire
+		(pts
+			(xy 158.75 50.8) (xy 252.73 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dafca497-7c18-4137-91f1-711888e1559e")
+	)
+	(wire
+		(pts
+			(xy 40.64 83.82) (xy 100.33 83.82)
+		)
+		(stroke
+			(width 0.0254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "dc4c4f99-45fc-47d4-a7f7-f874c9aab855")
+	)
+	(wire
+		(pts
+			(xy 39.37 50.8) (xy 119.38 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2232618-ede1-45f0-b962-45f0645efd00")
+	)
+	(wire
+		(pts
+			(xy 40.64 166.37) (xy 121.92 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4e7d490-cac1-49b2-a2f4-4c01045803e3")
+	)
+	(wire
+		(pts
+			(xy 40.64 163.83) (xy 64.77 163.83)
+		)
+		(stroke
+			(width 0.0254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "f8ea5026-f0e7-42a4-97f3-e7b6a48e5b2a")
+	)
+	(wire
+		(pts
+			(xy 163.83 45.72) (xy 252.73 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb9c77a3-371f-4c24-9bc7-75516e008d51")
+	)
+	(symbol
+		(lib_id "Connector:DE9_Socket")
+		(at 260.35 45.72 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "227ed69d-b0fa-4a53-ab17-d011ab90de28")
+		(property "Reference" "J5"
+			(at 260.35 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DE9_Pins"
+			(at 260.35 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-9_Socket_Vertical_P2.77x2.84mm_MountingHoles"
+			(at 260.35 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "9-pin D-SUB connector, socket (female)"
+			(at 260.35 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "6f035714-e86f-4e9c-a65f-fdf96c189f72")
+		)
+		(pin "8"
+			(uuid "d67dc6fc-0501-472b-8645-93d1ec5d4c91")
+		)
+		(pin "6"
+			(uuid "148284e6-febd-4d73-b9fa-a6ce9cf6adc8")
+		)
+		(pin "3"
+			(uuid "9d594799-7670-4209-9762-194934f1bcda")
+		)
+		(pin "9"
+			(uuid "2a48c4d7-d11b-4b25-b755-09d357e8cdc5")
+		)
+		(pin "4"
+			(uuid "97c01374-1cd2-47ee-8adf-ae8e699b089f")
+		)
+		(pin "2"
+			(uuid "a3c9ac30-906f-4ff9-8d41-959bf01b5545")
+		)
+		(pin "1"
+			(uuid "1a17cca0-68a9-4b0b-9d01-8981bae96207")
+		)
+		(pin "7"
+			(uuid "0afb7d8f-42f3-413e-b6fa-4b55778eac2f")
+		)
+		(instances
+			(project "BackPlane"
+				(path "/6e21d256-d79c-42ee-a5b1-b6407940b88d"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27577c8c-7a19-4262-8c17-21d424dd5403")
+		(property "Reference" "#PWR03"
+			(at 100.33 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45513acf-3c22-47b3-8acd-510f8cfe9cc7")
+		)
+		(instances
+			(project ""
+				(path "/6e21d256-d79c-42ee-a5b1-b6407940b88d"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 19.05 17.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36da787b-10d6-4a1c-bc48-249cae5bfe34")
+		(property "Reference" "H1"
+			(at 21.59 16.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 21.59 19.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_ISO14580"
+			(at 19.05 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 19.05 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 19.05 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/6e21d256-d79c-42ee-a5b1-b6407940b88d"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:DE9_Socket")
+		(at 31.75 45.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a9a3e22-b38e-46e5-a558-534fcdb4bcc4")
+		(property "Reference" "J1"
+			(at 31.75 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DE9_Pins"
+			(at 31.75 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-9_Socket_Vertical_P2.77x2.84mm_MountingHoles"
+			(at 31.75 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "9-pin D-SUB connector, socket (female)"
+			(at 31.75 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "f9cca4b0-0a48-4428-a0f0-2bb6fa82449c")
+		)
+		(pin "4"
+			(uuid "1d5abd17-8524-4e68-bc18-118d5ecb1ddc")
+		)
+		(pin "5"
+			(uuid "d0fa04de-1bfd-4cc6-9365-d444d8e64ca3")
+		)
+		(pin "1"
+			(uuid "56861bf7-e7c7-41fd-9371-1e3cecd4663c")
+		)
+		(pin "8"
+			(uuid "0f152620-084a-4766-9c7a-579d67122969")
+		)
+		(pin "7"
+			(uuid "11621923-ca0b-4718-b101-b1d425594216")
+		)
+		(pin "6"
+			(uuid "af07e651-14a7-461e-bd4c-c94c3dd7a2ff")
+		)
+		(pin "2"
+			(uuid "dbc57d1c-fd1c-48ae-9644-4c20ad45670c")
+		)
+		(pin "3"
+			(uuid "12a38a96-5f35-4dd3-b12a-628bde4dd0cf")
+		)
+		(instances
+			(project "BackPlane"
+				(path "/6e21d256-d79c-42ee-a5b1-b6407940b88d"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 19.05 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3bc5ca1f-d863-4a89-8854-9037c166e170")
+		(property "Reference" "H2"
+			(at 21.59 190.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 21.59 193.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_ISO14580"
+			(at 19.05 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 19.05 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 19.05 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/6e21d256-d79c-42ee-a5b1-b6407940b88d"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:DE9_Socket")
+		(at 33.02 163.83 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "631f8f3a-f5e0-488b-ae6f-9e7d3cd91a19")
+		(property "Reference" "J4"
+			(at 33.02 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DE9_Pins"
+			(at 33.02 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-9_Socket_Vertical_P2.77x2.84mm_MountingHoles"
+			(at 33.02 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "9-pin D-SUB connector, socket (female)"
+			(at 33.02 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "ce95e45b-a351-43fe-8cd3-2ec39751ddf4")
+		)
+		(pin "4"
+			(uuid "c009934c-38e2-4f0e-bdd5-c6b7875d147a")
+		)
+		(pin "5"
+			(uuid "119b26a4-a69e-4607-8cb8-73103ccd6538")
+		)
+		(pin "2"
+			(uuid "f59739a5-c7c5-48e6-9b35-7459768748d1")
+		)
+		(pin "3"
+			(uuid "a9c6a209-6b50-473a-afad-ae6e40fb66e1")
+		)
+		(pin "6"
+			(uuid "37d467ae-d7e0-4472-abe1-73c207a085dd")
+		)
+		(pin "1"
+			(uuid "2dc15d43-0e3a-4f3d-a388-3f7132ece3e8")
+		)
+		(pin "7"
+			(uuid "8a8ce584-a349-4d6a-8440-e630359c3bdc")
+		)
+		(pin "8"
+			(uuid "792cb1db-043c-473f-94a2-3c9bc1a3cf4d")
+		)
+		(instances
+			(project "BackPlane"
+				(path "/6e21d256-d79c-42ee-a5b1-b6407940b88d"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:DE9_Socket")
+		(at 163.83 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69ac6e7f-9dcb-4e3b-ba3a-e58bde2403ed")
+		(property "Reference" "J9"
+			(at 163.83 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DE9_Socket"
+			(at 163.83 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MREx footprint library:CONN_2301844-1_TEC"
+			(at 163.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "9-pin D-SUB connector, socket (female)"
+			(at 163.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "741a00e8-301f-468f-9700-fc6b365f3caa")
+		)
+		(pin "4"
+			(uuid "8f94b59a-85dc-4db6-977e-a9d482def692")
+		)
+		(pin "8"
+			(uuid "f658b1a1-9280-4032-b32f-d2993c315019")
+		)
+		(pin "6"
+			(uuid "d61d4eed-bee6-472a-a01b-11bb1749563f")
+		)
+		(pin "2"
+			(uuid "105add03-7c30-40d3-8436-0abce7cbd8cd")
+		)
+		(pin "9"
+			(uuid "03885346-7852-4e9b-ab14-33791a0f0d6d")
+		)
+		(pin "7"
+			(uuid "c43bc50d-1a04-46e7-9a22-02363d7bee79")
+		)
+		(pin "3"
+			(uuid "cb226dc6-bda4-4aa4-b152-b6ac22775ad6")
+		)
+		(pin "5"
+			(uuid "de22238d-ab83-4875-9ef3-fa13c5f904fc")
+		)
+		(instances
+			(project ""
+				(path "/6e21d256-d79c-42ee-a5b1-b6407940b88d"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:DE9_Socket")
+		(at 33.02 83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c4013cf-9cce-4f43-a1fc-25794ccef80c")
+		(property "Reference" "J2"
+			(at 33.02 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DE9_Pins"
+			(at 33.02 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-9_Socket_Vertical_P2.77x2.84mm_MountingHoles"
+			(at 33.02 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "9-pin D-SUB connector, socket (female)"
+			(at 33.02 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "a4370a35-254a-4d57-9b63-42f3e733518c")
+		)
+		(pin "3"
+			(uuid "85976b0b-80ea-4daf-aa2a-b5930eae6d3f")
+		)
+		(pin "4"
+			(uuid "2ef45b79-9d23-4cf9-ab0d-2a5d52057c89")
+		)
+		(pin "6"
+			(uuid "91ad4d69-2ad5-4c42-8664-818bb8cbde1e")
+		)
+		(pin "5"
+			(uuid "408efa36-c94e-4af6-8787-696291c4c749")
+		)
+		(pin "2"
+			(uuid "75b1b54b-eb78-4f45-8940-f27d0bf35ec7")
+		)
+		(pin "9"
+			(uuid "01fd9c21-79bf-4dea-849c-6ca6d9d33264")
+		)
+		(pin "1"
+			(uuid "0ca2a106-22c7-469a-803c-70706d139796")
+		)
+		(pin "7"
+			(uuid "87ed98b6-e67b-40cb-aef4-d96b366d30a4")
+		)
+		(instances
+			(project "BackPlane"
+				(path "/6e21d256-d79c-42ee-a5b1-b6407940b88d"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 64.77 193.04 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "915487c0-22f3-4baa-9ed0-e0e000836bdc")
+		(property "Reference" "J7"
+			(at 67.31 191.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 67.31 194.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal"
+			(at 64.77 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 64.77 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ffd3db5c-d6c7-4f12-b2b6-b3a96449125b")
+		)
+		(pin "2"
+			(uuid "0b00b36c-c198-494d-bf65-4c4a9b030244")
+		)
+		(instances
+			(project ""
+				(path "/6e21d256-d79c-42ee-a5b1-b6407940b88d"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:DE9_Socket")
+		(at 33.02 123.19 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7c3dbdd-9c72-4db5-b5fb-805a60d45a77")
+		(property "Reference" "J3"
+			(at 33.02 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DE9_Pins"
+			(at 33.02 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-9_Socket_Vertical_P2.77x2.84mm_MountingHoles"
+			(at 33.02 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "9-pin D-SUB connector, socket (female)"
+			(at 33.02 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "73ec1994-9711-4ac0-9dbe-d0fa8d029954")
+		)
+		(pin "8"
+			(uuid "44ee3a37-b122-4c8b-8ed1-4d21a794c89a")
+		)
+		(pin "2"
+			(uuid "edc84491-02b1-4167-bc69-3c7ebebeee16")
+		)
+		(pin "9"
+			(uuid "3f6246d1-fae0-4bb1-a047-108f6b6a529a")
+		)
+		(pin "7"
+			(uuid "4e1d6763-30ce-41a5-9cc3-9acb6c30a2e3")
+		)
+		(pin "6"
+			(uuid "e2807a32-885d-4240-a342-07d2bab69bfe")
+		)
+		(pin "3"
+			(uuid "715306dd-e429-4a54-9883-b3b529a4e9f0")
+		)
+		(pin "5"
+			(uuid "330c73bb-b41a-4519-a9d2-bc59a6613a6d")
+		)
+		(pin "1"
+			(uuid "d71929d1-36cf-43b2-8797-eec4dcc6c12a")
+		)
+		(instances
+			(project "BackPlane"
+				(path "/6e21d256-d79c-42ee-a5b1-b6407940b88d"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 86.36 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2899f5c-144d-491f-a5de-a5bebec61527")
+		(property "Reference" "#PWR01"
+			(at 86.36 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 86.36 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 86.36 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "286b5c20-b6ca-4738-857f-c356cb687579")
+		)
+		(instances
+			(project "BackPlane"
+				(path "/6e21d256-d79c-42ee-a5b1-b6407940b88d"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:DE9_Socket")
+		(at 124.46 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb5af23f-e427-4a22-a1ca-603dd5f14357")
+		(property "Reference" "J8"
+			(at 124.46 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DE9_Socket"
+			(at 124.46 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MREx footprint library:CONN_2301844-1_TEC"
+			(at 124.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "9-pin D-SUB connector, socket (female)"
+			(at 124.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "e7435b9b-28b9-4e02-9495-54b2819e9a2f")
+		)
+		(pin "2"
+			(uuid "46f59b87-64ff-464d-92c7-c7c07e5bb638")
+		)
+		(pin "8"
+			(uuid "ef7631a5-2ac3-4648-89ed-efcebf4aefe5")
+		)
+		(pin "3"
+			(uuid "89ba1cab-4ee1-425d-9697-f6d497deee71")
+		)
+		(pin "5"
+			(uuid "ce91e84a-793d-4861-b00e-8fbffa15a055")
+		)
+		(pin "6"
+			(uuid "3b1a4d22-a340-4bde-8742-713be97ed587")
+		)
+		(pin "9"
+			(uuid "8ec334a9-aec0-4306-8037-27144cea6c91")
+		)
+		(pin "1"
+			(uuid "d61c5e33-aad8-4221-9e71-521a7d8dc911")
+		)
+		(pin "7"
+			(uuid "f0c84c52-aa61-4cec-99c1-06bca85f8624")
+		)
+		(instances
+			(project ""
+				(path "/6e21d256-d79c-42ee-a5b1-b6407940b88d"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 276.86 17.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5ed2142-f60b-499a-bf70-8d604e03b77e")
+		(property "Reference" "H4"
+			(at 279.4 16.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 279.4 19.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_ISO14580"
+			(at 276.86 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.86 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 276.86 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/6e21d256-d79c-42ee-a5b1-b6407940b88d"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 274.32 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd990259-d9a4-4047-8ed7-ae76b0957086")
+		(property "Reference" "H3"
+			(at 276.86 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 276.86 194.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_ISO14580"
+			(at 274.32 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 274.32 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 274.32 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/6e21d256-d79c-42ee-a5b1-b6407940b88d"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
