@@ -4421,7 +4421,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 106.68) (xy 185.42 106.68)
+			(xy 182.88 87.63) (xy 186.69 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4641,6 +4641,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 109.22) (xy 158.75 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53b798cd-6eec-4006-9453-16bb9fed57ab")
+	)
+	(wire
+		(pts
 			(xy 77.47 123.19) (xy 80.01 123.19)
 		)
 		(stroke
@@ -4651,7 +4661,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 109.22) (xy 185.42 109.22)
+			(xy 184.15 90.17) (xy 186.69 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4718,6 +4728,16 @@
 			(type default)
 		)
 		(uuid "6719183e-437d-44d5-91b2-4a8bd731bf04")
+	)
+	(wire
+		(pts
+			(xy 182.88 87.63) (xy 182.88 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "719a34c6-4c2d-4fd1-8e52-c121433fc734")
 	)
 	(wire
 		(pts
@@ -4868,6 +4888,16 @@
 			(type default)
 		)
 		(uuid "9815d017-7354-4bb6-8a45-cb14adaad627")
+	)
+	(wire
+		(pts
+			(xy 184.15 90.17) (xy 184.15 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a08ff6c0-690c-4ca1-afb7-5571e21f7269")
 	)
 	(wire
 		(pts
@@ -5101,6 +5131,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 106.68) (xy 167.64 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f689ae14-cd7d-49eb-a46a-06a7e199a518")
+	)
+	(wire
+		(pts
 			(xy 95.25 78.74) (xy 96.52 78.74)
 		)
 		(stroke
@@ -5168,6 +5208,16 @@
 			(justify left bottom)
 		)
 		(uuid "ab57b9be-af96-47cf-9508-77289e07d330")
+	)
+	(label "DAC_R+"
+		(at 184.15 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b23c3423-d2e2-48b2-90b6-8f2f47d46577")
 	)
 	(label "STATUS LEDs-"
 		(at 111.76 83.82 0)
@@ -5739,7 +5789,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 190.5 106.68 0)
+		(at 191.77 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5747,7 +5797,7 @@
 		(dnp no)
 		(uuid "16c16636-0b84-499d-b1ae-03ab3ff04c17")
 		(property "Reference" "J3"
-			(at 189.2299 104.14 90)
+			(at 190.4999 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5756,7 +5806,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02 DAC OUT"
-			(at 193.802 120.142 90)
+			(at 195.072 101.092 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5765,7 +5815,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 190.5 106.68 0)
+			(at 191.77 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5774,7 +5824,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 106.68 0)
+			(at 191.77 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5783,7 +5833,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 190.5 106.68 0)
+			(at 191.77 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
