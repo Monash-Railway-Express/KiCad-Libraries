@@ -4101,10 +4101,6 @@
 		(uuid "78bfa27a-274d-466a-9ecf-73bd449e7f5b")
 	)
 	(no_connect
-		(at 76.2 63.5)
-		(uuid "799fe55b-fd4c-4ff6-8bf2-a2c60964924d")
-	)
-	(no_connect
 		(at 83.82 161.29)
 		(uuid "79f48775-3ec5-479c-920f-c6b1f142c72c")
 	)
@@ -4151,10 +4147,6 @@
 	(no_connect
 		(at 76.2 119.38)
 		(uuid "d901e4be-88cd-404d-9f2d-8ecfa93f19ed")
-	)
-	(no_connect
-		(at 76.2 66.04)
-		(uuid "e07708c2-a3a2-4281-afbe-302a81393c9e")
 	)
 	(no_connect
 		(at 76.2 114.3)
@@ -4797,6 +4789,16 @@
 			(justify left bottom)
 		)
 		(uuid "50e50395-588a-48bc-95c9-4f136ea08773")
+	)
+	(label "GND"
+		(at 50.8 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "61732aef-0d62-450c-b392-a8922a23614c")
 	)
 	(label "CANRX"
 		(at 25.4 172.72 0)

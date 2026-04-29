@@ -522,6 +522,13 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 0, 0)",
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -529,7 +536,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "GND",
+        "pattern": "*GND"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -671,7 +683,7 @@
         "uuid": "ff4a53b5-1752-405e-b891-9e42ea720fa3"
       }
     ],
-    "used_designators": "P1,#PWR1,#PWR5,D1-2,R1-3,R5",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
